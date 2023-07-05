@@ -1,0 +1,32 @@
+name: prime_generator
+description: Prime number generator
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.1.2
+  build_runner: ^2.4.6
+  cherry_toast: ^1.3.1
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.3
+  flutter_screenutil: ^5.8.4
+  freezed: ^2.3.5
+  freezed_annotation: ^2.2.0
+  icons_plus: ^4.0.0
+  url_launcher: ^6.1.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
